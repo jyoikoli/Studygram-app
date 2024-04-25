@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teach_OtpSend">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/verify" />
+
+    <!--Edittext for getting otp from user-->
+
+    <!--button for verifying user OTP-->
+
+    <EditText
+        android:id="@+id/idEdtPhoneNumber"
+        android:layout_width="266dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="74dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:hint="Enter Phone Number"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black" />
+
+    <Button
+        android:id="@+id/idBtnGetOtp"
+        android:layout_width="157dp"
+        android:layout_height="59dp"
+        android:layout_below="@id/idEdtPhoneNumber"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="128dp"
+        android:layout_marginBottom="10dp"
+        android:text="Get OTP"
+        android:textAllCaps="false"
+        android:textColorHighlight="#D12A2A"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/idEdtOtp"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idBtnGetOtp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="409dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:hint="OTP Number"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black" />
+
+    <Button
+        android:id="@+id/idBtnVerify"
+        android:layout_width="166dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/idEdtOtp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="478dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="123dp"
+        android:layout_marginBottom="10dp"
+        android:text="Verify OTP"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>

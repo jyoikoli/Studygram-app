@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "712582642526",
+    "project_id": "mydatabase-b4707",
+    "storage_bucket": "mydatabase-b4707.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712582642526:android:d2e69c8746cac9737fedcf",
+        "android_client_info": {
+          "package_name": "com.example.studygramapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE81025T262ZzXcsRCR8St9_RKiX23tVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

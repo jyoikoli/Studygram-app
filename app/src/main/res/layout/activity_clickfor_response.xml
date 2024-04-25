@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/viewcom"
+    tools:context=".ClickforResponse">
+
+    <EditText
+        android:id="@+id/doubtsEditText"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:gravity="center"
+        android:hint="Enter Students Doubts Questions ?"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white" />
+
+    <EditText
+        android:id="@+id/meetLinkEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doubtsEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="10dp"
+    android:layout_marginEnd="61dp"
+    android:layout_marginRight="61dp"
+    android:gravity="center"
+    android:hint="Enter Meet Link or Response"
+    android:textColor="@color/white"
+    android:textColorHighlight="@color/white"
+    android:textColorHint="@color/white"
+    android:textColorLink="@color/white" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/meetLinkEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Submit"
+        android:textSize="20sp" />
+
+</RelativeLayout>
